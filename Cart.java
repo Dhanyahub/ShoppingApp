@@ -19,6 +19,6 @@ class Cart {
             total += item.getTotal();
         }
 
-        System.out.println("Total Amount: ₹" + total);
+        System.out.println("Total Amountttt: ₹" + total);
     }
 }

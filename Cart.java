@@ -5,7 +5,7 @@ class Cart {
 
     void addProduct(Product p, int qty) {
         items.add(new CartItem(p, qty));
-        System.out.println(p.name + " added to cart ,Buy Later!");
+        System.out.println(p.name + " added to cart ,Buyyy Later!");
     }
 
     void viewCart() {

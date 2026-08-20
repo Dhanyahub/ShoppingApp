@@ -11,7 +11,7 @@ class Cart {
     void viewCart() {
         double total = 0;
 
-        System.out.println("\n--- CART ---");
+        System.out.println("\n- CART -");
         for (CartItem item : items) {
             System.out.println(item.product.name +
                 " | Qty: " + item.quantity +
